@@ -37,12 +37,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-<<<<<<< HEAD
-    #'rest_framework',
-=======
     'corsheaders',#Permite la comunicación conotro Backend
     'rest_framework',#Nos permite Crear Apis de manera más rapida
->>>>>>> fork/DEV_BACK
     'Inicio.apps.InicioConfig'
 ]
 
